@@ -34,7 +34,7 @@ private:
 int main()
 {
 	Owner ox;
-	Owner oy = std::move(ox);
+	Owner oy = ox;
 }
 
 /*
